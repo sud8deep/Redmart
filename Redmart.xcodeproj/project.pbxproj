@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F28121220540DDF0030085C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F28121120540DDF0030085C /* AppDelegate.swift */; };
+		8F28121420540DDF0030085C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F28121320540DDF0030085C /* ViewController.swift */; };
+		8F28121720540DDF0030085C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F28121520540DDF0030085C /* Main.storyboard */; };
+		8F28121A20540DDF0030085C /* Redmart.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F28121820540DDF0030085C /* Redmart.xcdatamodeld */; };
+		8F28121C20540DDF0030085C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F28121B20540DDF0030085C /* Assets.xcassets */; };
+		8F28121F20540DDF0030085C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F28121D20540DDF0030085C /* LaunchScreen.storyboard */; };
+		8F28122A20540DDF0030085C /* RedmartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F28122920540DDF0030085C /* RedmartTests.swift */; };
+		8F28123520540DDF0030085C /* RedmartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F28123420540DDF0030085C /* RedmartUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F28122620540DDF0030085C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F28120620540DDF0030085C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F28120D20540DDF0030085C;
+			remoteInfo = Redmart;
+		};
+		8F28123120540DDF0030085C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F28120620540DDF0030085C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F28120D20540DDF0030085C;
+			remoteInfo = Redmart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F28120E20540DDF0030085C /* Redmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Redmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F28121120540DDF0030085C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F28121320540DDF0030085C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F28121620540DDF0030085C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F28121920540DDF0030085C /* Redmart.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Redmart.xcdatamodel; sourceTree = "<group>"; };
+		8F28121B20540DDF0030085C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F28121E20540DDF0030085C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F28122020540DDF0030085C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F28122520540DDF0030085C /* RedmartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedmartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F28122920540DDF0030085C /* RedmartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedmartTests.swift; sourceTree = "<group>"; };
+		8F28122B20540DDF0030085C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F28123020540DDF0030085C /* RedmartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedmartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F28123420540DDF0030085C /* RedmartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedmartUITests.swift; sourceTree = "<group>"; };
+		8F28123620540DDF0030085C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F28120B20540DDF0030085C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F28122220540DDF0030085C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F28122D20540DDF0030085C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F28120520540DDF0030085C = {
+			isa = PBXGroup;
+			children = (
+				8F28121020540DDF0030085C /* Redmart */,
+				8F28122820540DDF0030085C /* RedmartTests */,
+				8F28123320540DDF0030085C /* RedmartUITests */,
+				8F28120F20540DDF0030085C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F28120F20540DDF0030085C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F28120E20540DDF0030085C /* Redmart.app */,
+				8F28122520540DDF0030085C /* RedmartTests.xctest */,
+				8F28123020540DDF0030085C /* RedmartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F28121020540DDF0030085C /* Redmart */ = {
+			isa = PBXGroup;
+			children = (
+				8F28121120540DDF0030085C /* AppDelegate.swift */,
+				8F28121320540DDF0030085C /* ViewController.swift */,
+				8F28121520540DDF0030085C /* Main.storyboard */,
+				8F28121B20540DDF0030085C /* Assets.xcassets */,
+				8F28121D20540DDF0030085C /* LaunchScreen.storyboard */,
+				8F28122020540DDF0030085C /* Info.plist */,
+				8F28121820540DDF0030085C /* Redmart.xcdatamodeld */,
+			);
+			path = Redmart;
+			sourceTree = "<group>";
+		};
+		8F28122820540DDF0030085C /* RedmartTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F28122920540DDF0030085C /* RedmartTests.swift */,
+				8F28122B20540DDF0030085C /* Info.plist */,
+			);
+			path = RedmartTests;
+			sourceTree = "<group>";
+		};
+		8F28123320540DDF0030085C /* RedmartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F28123420540DDF0030085C /* RedmartUITests.swift */,
+				8F28123620540DDF0030085C /* Info.plist */,
+			);
+			path = RedmartUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F28120D20540DDF0030085C /* Redmart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F28123920540DDF0030085C /* Build configuration list for PBXNativeTarget "Redmart" */;
+			buildPhases = (
+				8F28120A20540DDF0030085C /* Sources */,
+				8F28120B20540DDF0030085C /* Frameworks */,
+				8F28120C20540DDF0030085C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Redmart;
+			productName = Redmart;
+			productReference = 8F28120E20540DDF0030085C /* Redmart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F28122420540DDF0030085C /* RedmartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F28123C20540DDF0030085C /* Build configuration list for PBXNativeTarget "RedmartTests" */;
+			buildPhases = (
+				8F28122120540DDF0030085C /* Sources */,
+				8F28122220540DDF0030085C /* Frameworks */,
+				8F28122320540DDF0030085C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F28122720540DDF0030085C /* PBXTargetDependency */,
+			);
+			name = RedmartTests;
+			productName = RedmartTests;
+			productReference = 8F28122520540DDF0030085C /* RedmartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F28122F20540DDF0030085C /* RedmartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F28123F20540DDF0030085C /* Build configuration list for PBXNativeTarget "RedmartUITests" */;
+			buildPhases = (
+				8F28122C20540DDF0030085C /* Sources */,
+				8F28122D20540DDF0030085C /* Frameworks */,
+				8F28122E20540DDF0030085C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F28123220540DDF0030085C /* PBXTargetDependency */,
+			);
+			name = RedmartUITests;
+			productName = RedmartUITests;
+			productReference = 8F28123020540DDF0030085C /* RedmartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F28120620540DDF0030085C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = sudeep.r;
+				TargetAttributes = {
+					8F28120D20540DDF0030085C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8F28122420540DDF0030085C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8F28120D20540DDF0030085C;
+					};
+					8F28122F20540DDF0030085C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8F28120D20540DDF0030085C;
+					};
+				};
+			};
+			buildConfigurationList = 8F28120920540DDF0030085C /* Build configuration list for PBXProject "Redmart" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F28120520540DDF0030085C;
+			productRefGroup = 8F28120F20540DDF0030085C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F28120D20540DDF0030085C /* Redmart */,
+				8F28122420540DDF0030085C /* RedmartTests */,
+				8F28122F20540DDF0030085C /* RedmartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F28120C20540DDF0030085C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F28121F20540DDF0030085C /* LaunchScreen.storyboard in Resources */,
+				8F28121C20540DDF0030085C /* Assets.xcassets in Resources */,
+				8F28121720540DDF0030085C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F28122320540DDF0030085C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F28122E20540DDF0030085C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F28120A20540DDF0030085C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F28121420540DDF0030085C /* ViewController.swift in Sources */,
+				8F28121A20540DDF0030085C /* Redmart.xcdatamodeld in Sources */,
+				8F28121220540DDF0030085C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F28122120540DDF0030085C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F28122A20540DDF0030085C /* RedmartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F28122C20540DDF0030085C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F28123520540DDF0030085C /* RedmartUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F28122720540DDF0030085C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F28120D20540DDF0030085C /* Redmart */;
+			targetProxy = 8F28122620540DDF0030085C /* PBXContainerItemProxy */;
+		};
+		8F28123220540DDF0030085C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F28120D20540DDF0030085C /* Redmart */;
+			targetProxy = 8F28123120540DDF0030085C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F28121520540DDF0030085C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F28121620540DDF0030085C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F28121D20540DDF0030085C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F28121E20540DDF0030085C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F28123720540DDF0030085C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F28123820540DDF0030085C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F28123A20540DDF0030085C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29G9X9UTQX;
+				INFOPLIST_FILE = Redmart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = urbanladder.Redmart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F28123B20540DDF0030085C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29G9X9UTQX;
+				INFOPLIST_FILE = Redmart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = urbanladder.Redmart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8F28123D20540DDF0030085C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29G9X9UTQX;
+				INFOPLIST_FILE = RedmartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = urbanladder.RedmartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Redmart.app/Redmart";
+			};
+			name = Debug;
+		};
+		8F28123E20540DDF0030085C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29G9X9UTQX;
+				INFOPLIST_FILE = RedmartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = urbanladder.RedmartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Redmart.app/Redmart";
+			};
+			name = Release;
+		};
+		8F28124020540DDF0030085C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29G9X9UTQX;
+				INFOPLIST_FILE = RedmartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = urbanladder.RedmartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Redmart;
+			};
+			name = Debug;
+		};
+		8F28124120540DDF0030085C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29G9X9UTQX;
+				INFOPLIST_FILE = RedmartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = urbanladder.RedmartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Redmart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F28120920540DDF0030085C /* Build configuration list for PBXProject "Redmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F28123720540DDF0030085C /* Debug */,
+				8F28123820540DDF0030085C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F28123920540DDF0030085C /* Build configuration list for PBXNativeTarget "Redmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F28123A20540DDF0030085C /* Debug */,
+				8F28123B20540DDF0030085C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F28123C20540DDF0030085C /* Build configuration list for PBXNativeTarget "RedmartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F28123D20540DDF0030085C /* Debug */,
+				8F28123E20540DDF0030085C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F28123F20540DDF0030085C /* Build configuration list for PBXNativeTarget "RedmartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F28124020540DDF0030085C /* Debug */,
+				8F28124120540DDF0030085C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8F28121820540DDF0030085C /* Redmart.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8F28121920540DDF0030085C /* Redmart.xcdatamodel */,
+			);
+			currentVersion = 8F28121920540DDF0030085C /* Redmart.xcdatamodel */;
+			path = Redmart.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8F28120620540DDF0030085C /* Project object */;
+}
