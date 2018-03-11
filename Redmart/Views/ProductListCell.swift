@@ -11,11 +11,11 @@ import Alamofire
 import AlamofireImage
 
 class ProductListCell: UICollectionViewCell {
-    @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var productName: UILabel!
-    @IBOutlet weak var sellingPriceLabel: UILabel!
-    @IBOutlet weak var priceBeforeDiscount: UILabel!
-    @IBOutlet weak var outOfStockLabel: UILabel!
+    @IBOutlet private weak var imageView: UIImageView!
+    @IBOutlet private weak var productName: UILabel!
+    @IBOutlet private weak var sellingPriceLabel: UILabel!
+    @IBOutlet private weak var priceBeforeDiscount: UILabel!
+    @IBOutlet private weak var outOfStockLabel: UILabel!
     
     var info: PLProductInfo! {
         didSet {

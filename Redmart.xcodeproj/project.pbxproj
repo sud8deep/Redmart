@@ -26,7 +26,6 @@
 		8F35EDFC2055644D00BB5CAB /* APIRequestParamFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F35EDFB2055644D00BB5CAB /* APIRequestParamFactory.swift */; };
 		8F35EDFE20556AD900BB5CAB /* ProductListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F35EDFD20556AD900BB5CAB /* ProductListCell.xib */; };
 		8F35EE0020556B2F00BB5CAB /* ProductListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F35EDFF20556B2F00BB5CAB /* ProductListCell.swift */; };
-		8F35EE02205582FD00BB5CAB /* AppHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F35EE01205582FD00BB5CAB /* AppHelper.swift */; };
 		8F35EE042055A81B00BB5CAB /* ProductDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F35EE032055A81B00BB5CAB /* ProductDetailsController.swift */; };
 		8F35EE062055AA3700BB5CAB /* ProductDetailsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F35EE052055AA3700BB5CAB /* ProductDetailsInfo.swift */; };
 /* End PBXBuildFile section */
@@ -76,7 +75,6 @@
 		8F35EDFB2055644D00BB5CAB /* APIRequestParamFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestParamFactory.swift; sourceTree = "<group>"; };
 		8F35EDFD20556AD900BB5CAB /* ProductListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductListCell.xib; sourceTree = "<group>"; };
 		8F35EDFF20556B2F00BB5CAB /* ProductListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListCell.swift; sourceTree = "<group>"; };
-		8F35EE01205582FD00BB5CAB /* AppHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHelper.swift; sourceTree = "<group>"; };
 		8F35EE032055A81B00BB5CAB /* ProductDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsController.swift; sourceTree = "<group>"; };
 		8F35EE052055AA3700BB5CAB /* ProductDetailsInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsInfo.swift; sourceTree = "<group>"; };
 		8F6DE80C2055BC2D00DF667B /* s3-ap-southeast-1amazonawscom.crt */ = {isa = PBXFileReference; lastKnownFileType = file; name = "s3-ap-southeast-1amazonawscom.crt"; path = "../../../../../Desktop/s3-ap-southeast-1amazonawscom.crt"; sourceTree = "<group>"; };
@@ -223,7 +221,6 @@
 			children = (
 				8F2812492054322C0030085C /* Constants.swift */,
 				8F35EDF92055620E00BB5CAB /* APIHelper.swift */,
-				8F35EE01205582FD00BB5CAB /* AppHelper.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -570,7 +567,6 @@
 				8F35EE062055AA3700BB5CAB /* ProductDetailsInfo.swift in Sources */,
 				8F35EDFC2055644D00BB5CAB /* APIRequestParamFactory.swift in Sources */,
 				8F28124A2054322C0030085C /* Constants.swift in Sources */,
-				8F35EE02205582FD00BB5CAB /* AppHelper.swift in Sources */,
 				8F35EE0020556B2F00BB5CAB /* ProductListCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
