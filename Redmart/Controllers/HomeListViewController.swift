@@ -18,6 +18,7 @@ class HomeListViewController: UIViewController {
     // MARK: Properties
     private let productListCellIdentifier = "ProductListCell"
     private let numberOfItemsInRow = 2
+    private let productDetailsVCIdentifier = "ProductDetailsController"
     
     private var productListManager: ProductListManager!
     
@@ -32,6 +33,7 @@ class HomeListViewController: UIViewController {
         flowLayout.invalidateLayout()
     }
     
+    // MARK: Private methods
     private func initialise() {
         registerCells()
         
@@ -39,6 +41,8 @@ class HomeListViewController: UIViewController {
         productListManager.delegate = self
         
         getCatalogInfo()
+        
+        APIHelper.sslPinning()
     }
     
     private func registerCells() {
@@ -55,7 +59,15 @@ class HomeListViewController: UIViewController {
     
     private func handleTapOnProductCell(atIndex indexPath: IndexPath) {
         guard let productInfo = productListManager.productListInfo?.products[indexPath.row] else {return}
-        
+        pushProductDetailsVC(productID: productInfo.id)
+    }
+    
+    private func pushProductDetailsVC(productID: Int) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        guard let productDetailsVC = (storyboard.instantiateViewController(
+            withIdentifier: productDetailsVCIdentifier) as? ProductDetailsController) else {return}
+        productDetailsVC.productID = productID
+        self.navigationController?.pushViewController(productDetailsVC, animated: true)
     }
 }
 
@@ -80,6 +92,7 @@ extension HomeListViewController: ProductListManagerProtocol {
     }
 }
 
+// MARK: UICollectionViewDataSource
 extension HomeListViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         guard let _ = productListManager,
@@ -106,6 +119,7 @@ extension HomeListViewController: UICollectionViewDataSource {
     }
 }
 
+// MARK: UICollectionViewDelegateFlowLayout
 extension HomeListViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let totalAvailableWidth = collectionView.frame.width -

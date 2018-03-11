@@ -14,6 +14,7 @@ class ProductBaseInfo: Mappable {
     var title: String?
     var images: [ProductImageInfo] = []
     var priceInfo: PriceInfo?
+    var productDesc: String?
     
     var inStock = false
     var stockStatus: Int = 0 {
@@ -30,6 +31,7 @@ class ProductBaseInfo: Mappable {
         stockStatus <- map["inventory.stock_status"]
         images      <- map["images"]
         priceInfo   <- map["pricing"]
+        productDesc <- map["desc"]
     }
 }
 

@@ -14,6 +14,7 @@ class URLConstants {
     static let baseURL = "https://api.redmart.com"
     static let mediaBaseURL = "https://media.redmart.com/newmedia/200p"
     static let catalogSearchSubURL = "/v1.6.0/catalog/search"
+    static let productDetailsSubURL = "/v1.6.0/products/"
 }
 
 class StringConstants {
